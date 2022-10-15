@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import Question from './Question';
 import { countAnswer, setColor } from '../redux/Questions/Questions';
@@ -25,10 +26,17 @@ export default function QuestionsView() {
 
   return (
     <>
-      <h3>Questions</h3>
-      <div>{displayQuestions}</div>
-      <button type="button" onClick={() => handleClick()}>Check Answers</button>
-      {flag && <div className="view-score">{`You scored ${count}/5`}</div>}
+      <h3 className="questions-title">Questions</h3>
+      <div className="question-container">{displayQuestions}</div>
+      <button type="button" className="check-btn" onClick={() => handleClick()}>Check Answers</button>
+      {flag && (
+      <div className="view-score">
+        <span className="score-span">{`You scored ${count}/5`}</span>
+        <Link className="links home-link" to="/">
+          <button className="try-btn" type="button">Play Again</button>
+        </Link>
+      </div>
+      )}
 
     </>
   );

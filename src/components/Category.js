@@ -13,19 +13,20 @@ export default function Category() {
 
   return (
     <>
-      <h3>Test your knowledge:</h3>
+      <div className="test-knowledge" />
+      <div className="category-text">QUESTIONS BY CATEGORY</div>
       <div className="categories">
         <Link className="links questions-link" to="/questions">
-          <button id="general_knowledge" className="btn general_knowledge" onClick={handleClick} type="button">General Knowledge</button>
+          <button id="general_knowledge" className="btn general_knowledge" onClick={handleClick} aria-label="general_knowledge" type="button" />
         </Link>
         <Link className="links questions-link" to="/questions">
-          <button id="entertainement" className="btn entertainement" onClick={handleClick} type="button">Entertainement</button>
+          <button id="entertainment" className="btn entertainment" onClick={handleClick} aria-label="entertainment" type="button" />
         </Link>
         <Link className="links questions-link" to="/questions">
-          <button id="science" className="btn science" onClick={handleClick} type="button">Science</button>
+          <button id="science" className="btn science" onClick={handleClick} aria-label="science" type="button" />
         </Link>
         <Link className="links questions-link" to="/questions">
-          <button id="social" className="btn social" onClick={handleClick} type="button">Social</button>
+          <button id="social" className="btn social" onClick={handleClick} aria-label="social" type="button" />
         </Link>
       </div>
     </>
