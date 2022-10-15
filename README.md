@@ -38,12 +38,11 @@ In order to obtain a local copy of this repository run:
 
 ## Live Demo
 
-[Live Demo Link](https://cheerful-daffodil-b41858.netlify.app/)
+[Live Demo Link]()
 
 ## Project video -->
 
-[A video presentation of the project](https://www.loom.com/share/878730135f0242eb9f3fc1bbce51ff18)
-
+[A video presentation of the project]()
 
 ## Author
 
