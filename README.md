@@ -1,5 +1,4 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/e6847a02-055a-4bae-93e4-f894dfcb91a3/deploy-status)](https://app.netlify.com/sites/space-travellers-hub-desta-eva-peter/deploys)
 
 # Quizzical
 
@@ -38,11 +37,11 @@ In order to obtain a local copy of this repository run:
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://cheerful-daffodil-b41858.netlify.app/)
 
 ## Project video -->
 
-[A video presentation of the project]()
+[A video presentation of the project](https://www.loom.com/share/878730135f0242eb9f3fc1bbce51ff18)
 
 ## Author
 
