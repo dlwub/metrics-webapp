@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+![](https://img.shields.io/badge/Microverse-blueviolet)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e6847a02-055a-4bae-93e4-f894dfcb91a3/deploy-status)](https://app.netlify.com/sites/space-travellers-hub-desta-eva-peter/deploys)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Quizzical
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+> Do you like to enhance your knowledge in any aspect of life or you want to test your knowledge? Then, you are at the right place. Quizzical is a webapp that fetches questions from the Open Trivia database (https://opentdb.com/) and displays them in a user friendly manner.
 
-### `npm start`
+## Built With
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- HTML, CSS, JavaScript
+- React
+- Redux
+- Jest
+- NPM
+- Node
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+In order to obtain a local copy of this repository run:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- `git clone https://github.com/dlwub/metrics-webapp`
+- `cd metrics-webapp`
 
-### `npm run build`
+### Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Install Node and Node Package Manager (NPM)
+- Install all the project dependencies running `npm i`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Running the project locally
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- You can run this project locally (localhost), after cloning the repository, by running `npm run start`
 
-### `npm run eject`
+### Running tests
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- You can run test suites on this project by running `npm test`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Live Demo
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+[Live Demo Link]()
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Project video -->
 
-## Learn More
+[A video presentation of the project]()
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Author
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+👤 **Desta Legesse Wubishet**
 
-### Code Splitting
+- GitHub: [@dlwub](https://github.com/dlwub)
+- Twitter: [@DestaWubishet](https://twitter.com/DestaWubishet)
+- LinkedIn: [Desta Legesse Wubishet](linkedin.com/in/desta-legesse-w-509844213/) 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🤝 Contributing
 
-### Analyzing the Bundle Size
+Contributions, issues, and feature requests are welcome!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Feel free to check the [issues page](../../issues/).
 
-### Making a Progressive Web App
+## Show your support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Give a ⭐️ if you like this project!
 
-### Advanced Configuration
+## Credit
+Original design of the app: by Nelson Sakwa on Behance.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 📝 License
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is [MIT](./LICENSE) licensed.
