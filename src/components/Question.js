@@ -34,5 +34,4 @@ Question.propTypes = {
   id: PropTypes.string.isRequired,
   question: PropTypes.string.isRequired,
   choices: PropTypes.arrayOf(PropTypes.string.isRequired).isRequired,
-  // correctAnswer: PropTypes.string.isRequired,
 };
