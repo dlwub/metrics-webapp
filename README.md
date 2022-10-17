@@ -1,56 +1,55 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Quizzical
 
-> Description the project.
+## Description
 
+> Do you like to enhance your knowledge in any aspect of life or you want to test your knowledge? Then, you are at the right place. Quizzical is a webapp that fetches questions from the Open Trivia database (https://opentdb.com/) and displays them in a user friendly manner. It enables users to choose answers and it displays the right and wrong answers for users.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
+- HTML, CSS, JavaScript
+- React
+- Redux
+- Jest
+- NPM
+- Node
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+In order to obtain a local copy of this repository run:
 
-
-To get a local copy up and running follow these simple example steps.
+- `git clone https://github.com/dlwub/metrics-webapp`
+- `cd metrics-webapp`
 
 ### Prerequisites
 
-### Setup
+- Install Node and Node Package Manager (NPM)
+- Install all the project dependencies running `npm i`
 
-### Install
+### Running the project locally
 
-### Usage
+- You can run this project locally (localhost), after cloning the repository, by running `npm run start`
 
-### Run tests
+### Running tests
 
-### Deployment
+- You can run test suites on this project by running `npm test`
 
+## Live Demo
 
+[Live Demo Link](https://cheerful-daffodil-b41858.netlify.app/)
 
-## Authors
+## Project video -->
 
-👤 **Author1**
+[A video presentation of the project](https://www.loom.com/share/878730135f0242eb9f3fc1bbce51ff18)
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+## Author
 
-👤 **Author2**
+👤 **Desta Legesse Wubishet**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@dlwub](https://github.com/dlwub)
+- Twitter: [@DestaWubishet](https://twitter.com/DestaWubishet)
+- LinkedIn: [Desta Legesse Wubishet](linkedin.com/in/desta-legesse-w-509844213/) 
 
 ## 🤝 Contributing
 
@@ -62,14 +61,9 @@ Feel free to check the [issues page](../../issues/).
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+## Credit
+Original design of the app: by Nelson Sakwa on Behance.
 
 ## 📝 License
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._

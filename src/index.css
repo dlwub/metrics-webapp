@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600;700&family=Roboto+Slab:wght@300;400;500;700&display=swap");
+
+body {
+  margin: 0;
+  border: 0;
+  font-size: 16px;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+.header {
+  text-align: center;
+  background: rgb(68, 147, 184);
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 900;
+  padding: 0.5rem;
+}
+
+.category-bar {
+  display: flex;
+  background: rgb(68, 147, 184);
+  justify-content: space-between;
+}
+
+.category-text {
+  text-align: left;
+  font-size: 1.25rem;
+  color: #fff;
+  font-weight: 600;
+  padding: 0.5rem;
+}
+
+#difficulty-level,
+.difficulty-level {
+  color: #fff;
+  font-weight: 600;
+  padding: 0.25rem;
+  margin: 0.5rem;
+}
+
+#difficulty-level {
+  background-color: rgb(68, 147, 184);
+  border: 1px solid #fff;
+  border-radius: 0.25rem;
+}
+
+.categories {
+  display: grid;
+  grid-template: 50% 50% / 50% 50%;
+}
+
+.test-knowledge {
+  background-image: url("./images/knowledge_3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  aspect-ratio: 2 / 1;
+}
+
+.btn {
+  border: none;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  background-size: cover;
+}
+
+.general_knowledge {
+  background-image: url("./images/general_knowledge_3.png");
+  background-repeat: no-repeat;
+}
+
+.entertainment {
+  background-image: url("./images/entertainment_3.png");
+  background-repeat: no-repeat;
+}
+
+.science {
+  background-image: url("./images/science_3.png");
+  background-repeat: no-repeat;
+}
+
+.social {
+  background-image: url("./images/social_3.png");
+  background-repeat: no-repeat;
+}
+
+.question-bar {
+  display: flex;
+}
+
+.questions-title {
+  color: rgb(68, 147, 184);
+  padding-left: 2rem;
+}
+
+.question-container {
+  background: rgb(68, 147, 184);
+  color: #fff;
+  padding: 1.5rem 0;
+}
+
+.question-backBtn {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 2rem;
+}
+
+.question-backBtn:nth-child(even) {
+  background: rgb(5, 102, 147);
+}
+
+.icon,
+.icon-forward {
+  margin: 1.25rem;
+  margin-right: 0;
+  font-size: 1.5rem;
+  color: rgb(68, 147, 184);
+}
+
+.icon-forward {
+  color: #fff;
+}
+
+.question {
+  padding-bottom: 0.5rem;
+}
+
+.choices {
+  display: grid;
+  grid-template: 50% 50% / 50% 50%;
+  gap: 0.5rem;
+}
+
+.choices button {
+  border: none;
+  background: #fff;
+  color: rgb(68, 147, 184);
+  font-weight: 600;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+}
+
+.view-score {
+  display: flex;
+  justify-content: space-between;
+}
+
+.score-span {
+  color: rgb(68, 147, 184);
+  margin: 1.5rem 1rem;
+}
+
+.check-btn,
+.try-btn {
+  border: none;
+  background: rgb(68, 147, 184);
+  color: #fff;
+  font-weight: 600;
+  padding: 0.5rem 1.5rem;
+  align-items: flex-end;
+  border-radius: 0.25rem;
+  margin: 1rem;
+}

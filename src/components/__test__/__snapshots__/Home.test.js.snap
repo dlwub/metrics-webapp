@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DetailsPage renders correctly 1`] = `
+Array [
+  <div
+    className="test-knowledge"
+  />,
+  <div
+    className="category-bar"
+  >
+    <div
+      className="category-text"
+    >
+      QUESTIONS BY CATEGORY
+    </div>
+    <div>
+      <span
+        className="difficulty-level"
+      >
+        Difficulty Level
+      </span>
+      <select
+        id="difficulty-level"
+        name="difficulty-level"
+      >
+        <option
+          value="any difficulty"
+        >
+          Any Difficulty
+        </option>
+        <option
+          value="easy"
+        >
+          Easy
+        </option>
+        <option
+          value="medium"
+        >
+          Medium
+        </option>
+        <option
+          value="hard"
+        >
+          Hard
+        </option>
+      </select>
+    </div>
+  </div>,
+  <div
+    className="categories"
+  >
+    <a
+      className="links questions-link"
+      href="/questions"
+      onClick={[Function]}
+    >
+      <button
+        aria-label="general_knowledge"
+        className="btn general_knowledge"
+        id="general_knowledge"
+        onClick={[Function]}
+        type="button"
+      />
+    </a>
+    <a
+      className="links questions-link"
+      href="/questions"
+      onClick={[Function]}
+    >
+      <button
+        aria-label="entertainment"
+        className="btn entertainment"
+        id="entertainment"
+        onClick={[Function]}
+        type="button"
+      />
+    </a>
+    <a
+      className="links questions-link"
+      href="/questions"
+      onClick={[Function]}
+    >
+      <button
+        aria-label="science"
+        className="btn science"
+        id="science"
+        onClick={[Function]}
+        type="button"
+      />
+    </a>
+    <a
+      className="links questions-link"
+      href="/questions"
+      onClick={[Function]}
+    >
+      <button
+        aria-label="social"
+        className="btn social"
+        id="social"
+        onClick={[Function]}
+        type="button"
+      />
+    </a>
+  </div>,
+]
+`;
