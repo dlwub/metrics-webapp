@@ -4,7 +4,7 @@
 
 ## Description
 
-> Do you like to enhance your knowledge in any aspect of life or you want to test your knowledge? Then, you are at the right place. Quizzical is a webapp that fetches questions from the Open Trivia database (https://opentdb.com/) and displays them in a user friendly manner.
+> Do you like to enhance your knowledge in any aspect of life or you want to test your knowledge? Then, you are at the right place. Quizzical is a webapp that fetches questions from the Open Trivia database (https://opentdb.com/) and displays them in a user friendly manner. It enables users to choose answers and it displays the right and wrong answers for users.
 
 ## Built With
 
