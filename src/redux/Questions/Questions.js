@@ -68,4 +68,6 @@ const questionsSlice = createSlice({
 });
 
 export default questionsSlice.reducer;
-export const { setChoice, countAnswer, setColor } = questionsSlice.actions;
+export const {
+  setColor, countAnswer, setChoice,
+} = questionsSlice.actions;

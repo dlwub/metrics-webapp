@@ -2,6 +2,8 @@ export default function ammendUrl(id) {
   const API_BASE_URL = 'https://opentdb.com/api.php?amount=5';
   const arr = [9, 10, 11, 12, 13, 14, 15, 16, 29, 31, 32, 17, 18, 19,
     27, 28, 30, 20, 21, 22, 23, 24, 25, 26];
+  const e = document.getElementById('difficulty-level');
+  const difficulty = e.options[e.selectedIndex].value;
   let index;
   switch (id) {
     case 'entertainement':
@@ -17,5 +19,7 @@ export default function ammendUrl(id) {
       index = 0;
       break;
   }
-  return `${API_BASE_URL}&category=${arr[index]}`;
+
+  return difficulty === 'any difficulty' ? `${API_BASE_URL}&category=${arr[index]}`
+    : `${API_BASE_URL}&category=${arr[index]}&difficulty=${difficulty}`;
 }
