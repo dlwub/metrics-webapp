@@ -20,7 +20,7 @@ export default function Question(props) {
 
   return (
     <div key={id}>
-      <h4 className="question">
+      <h4 className="question" data-testid="question">
         {decodeHtml(question)}
         <div className="choices">
           {displayChoices}
